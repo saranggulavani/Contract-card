@@ -34,7 +34,7 @@ const Contract = () => {
                   Win payout if the last digit of Bear Market Index is 6 after 7
                   ticks.
                 </Card.Text>
-                <Row className="">
+                <Row className="pt-3">
                   <Col className="text-center">
                     <Card.Text>Buy Price</Card.Text>
                     <Card.Text>10.00 USD</Card.Text>
