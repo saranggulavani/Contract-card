@@ -17,7 +17,10 @@ const Contract = () => {
   return (
     <>
       <Container>
-        <Col md={8} className="mx-auto py-5">
+        <Col
+          md={12}
+          className="d-flex justify-content-center align-items-center py-5"
+        >
           <Card className="bg-light rounded-0">
             <Col xs={12} md={12}>
               <Card.Text className="h3 fw-light text-center pt-4 cardHeading">
@@ -26,12 +29,12 @@ const Contract = () => {
               <div className="cross">
                 <VscChromeClose className="h1 p-2 text-white rounded-bottom-right cross" />
               </div>
-              <Card.Body className="mx-auto">
-                <Card.Text className="bg-white py-3 px-4 border border-2">
+              <Card.Body className="">
+                <Card.Text className="bg-white py-3 px-3 text-center border border-2">
                   Win payout if the last digit of Bear Market Index is 6 after 7
                   ticks.
                 </Card.Text>
-                <Row className="pt-3">
+                <Row className="">
                   <Col className="text-center">
                     <Card.Text>Buy Price</Card.Text>
                     <Card.Text>10.00 USD</Card.Text>
@@ -45,10 +48,10 @@ const Contract = () => {
                     <Card.Text>-10.00 USD</Card.Text>
                   </Col>
                 </Row>
-                <Card.Text className="text-center pt-5">
+                <Card.Text className="text-center pt-3">
                   Your transaction reference is 284696602028
                 </Card.Text>
-                <Row className="pt-4">
+                <Row className="pt-2">
                   <Col md={8} className="d-flex justify-content-end">
                     <Card.Text>
                       <BsClock className="mx-2 mb-1" />
@@ -66,7 +69,7 @@ const Contract = () => {
                   <Col
                     xs={12}
                     md={12}
-                    className="d-flex justify-content-center pt-4 mt-3"
+                    className="d-flex justify-content-center pt-2"
                   >
                     <Pagination>{items}</Pagination>
                   </Col>
