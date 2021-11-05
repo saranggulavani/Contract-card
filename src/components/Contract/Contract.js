@@ -23,11 +23,14 @@ const Contract = () => {
         >
           <Card className="bg-light rounded-0">
             <Col xs={12} md={12}>
-              <Card.Text className="h3 fw-light text-center pt-4 cardHeading">
+              <Card.Text className="h3 fw-light text-center pt-4 position-relative">
                 This contract lost
               </Card.Text>
-              <div className="cross">
-                <VscChromeClose className="h1 p-2 text-white rounded-bottom-right cross" />
+              <div className="" style={{ cursor: "pointer" }}>
+                <VscChromeClose
+                  style={{ backgroundColor: "#2a3052" }}
+                  className="h1 p-2 text-white rounded-bottom position-absolute top-0 end-0"
+                />
               </div>
               <Card.Body className="">
                 <Card.Text className="bg-white py-3 px-3 text-center border border-2">
