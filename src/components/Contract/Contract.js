@@ -34,7 +34,7 @@ const Contract = () => {
               </div>
               <Card.Body className="">
                 <Card.Text className="bg-white py-3 px-3 text-center border border-2">
-                  Win payout if the last digit of Bear Market Index is 6 after 7
+                  Win payout if the last digit of Bear Market Index is 6 after 10
                   ticks.
                 </Card.Text>
                 <Row className="pt-3">
